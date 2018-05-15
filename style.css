@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+.index-main{   
+    background-image: url("../images/light-grey-terrazzo.png");
+    height: 100%;
+    border: 2px solid #dddddd;
+  
+}
+.nav-container{
+    width: 960px;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.left{
+    float: left;
+    height: 250px;
+    width: 200px;
+    padding: 5px;
+}
+
+.box{
+    border-style: solid;
+    height: 200px;
+    width: 30%;
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+    padding-top: 30px;
+ 
+    
+}
+
+a:link{
+    color:  #777777;
+    text-decoration: none;
+}
+
+li{
+    display: inline-block;
+    border-right:solid 1px #777777;
+    padding-right: 5px;
+    font-size: 20px;
+}
+
+
+
+h1{
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 30px;
+    width:30%;
+    padding: 15px;
+    float: left;
+}
+
+.white{
+    background-color: #ffffff;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 40px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+h2{
+    color: #4aaaa5;
+    border-bottom: 3px solid #dddddd; 
+    font-size: 30px;
+margin-top: 0px;
+}
+
+footer{
+    clear: both;
+    background-color: #666666;
+    height: 50px;
+    border-top: 6px solid #4aaaa5;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+p{
+    color: #777777;
+}
+
+.contact-main{
+    border: solid 3px #dddddd;
+    /* /* text-align: center; */
+    margin: auto; 
+    width: 960px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+form{ 
+    margin: auto;
+    /* display: fixed;
+    bottom: 0%; */
+    
+}
+
+.input label {
+    display: block;
+    width: 100%;
+     padding: 15px;
+    text-align: left;
+    font-size: 16px;
+    border-radius: 3px;
+    color: #777777;
+  
+    
+  }
+  .input input {
+    display: block;
+    width: 100%;
+     height: 55px;
+    padding: 15px;
+     /* border: 2px solid #e7e7e7;
+       background: #fcfcfc; */
+         font-size: 16px;
+  }
+
+  .button{
+    background-color: #4aaaa5;
+    color: white;
+    height: 40px;
+    width: 90px;
+    font-size: 20px;
+    margin-top: 5px;
+  }
+
+  .portfolio-main{
+    width: 960px;
+    padding: 10px; 
+    margin: auto;
+  }
